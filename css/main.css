@@ -268,3 +268,160 @@ header .sub-menu li a:hover{
     font-size: 20px;
     justify-content: center;
 }
+
+/* FEATURE */
+.section--feature{
+    background: #f5f5f5;
+    padding-top: 66px;
+}
+.section--feature .summary{
+    max-width: 820px;
+    margin: 0 auto;
+    text-align: center;
+}
+.section--feature .video{
+    max-width: 650px;
+    margin: 50px auto;
+}
+.section--feature .video .video-ratio{
+    height: 0;
+    padding-top: 56.25%;
+    position: relative;
+}
+.section--feature .video .video-ratio iframe{
+    position: absolute;
+    top:10px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.section--feature .tiles{
+    border-top: 1px solid rgba(0,0,0,0.07);
+    border-bottom: 3px solid rgba(0,0,0,0.07);
+}
+.section--feature .tiles ul{
+    display: flex;
+    flex-flow: wrap;
+}
+.section--feature .tiles li{
+    padding: 34px 24px;
+    text-align: center;
+    line-height: 1.5;
+    border-right: 1px solid rgba(0,0,0,0.07);
+    box-sizing: border-box;
+    /* 반응형 웹 사이트 제작 */
+    flex: 1 1 0;
+}
+.section--feature .tiles li:last-child{
+    border-right: none;
+}
+.section--feature .tiles img{
+    max-width: 100%;
+    padding: 14px 10% 24px;
+    box-sizing: border-box;
+}
+.section--feature .tiles h3{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottm: 10px;
+}
+.section--feature .tiles p{
+    font-size: 14px;
+    color: #767676;
+}
+.section--feature .inner.inner__tiles{
+    max-width: 1200px;
+}
+
+/*          */
+/* WHERE IS */
+/*          */
+
+.section--where-is{
+
+}
+.section--where-is .inner{
+    padding-top: 80px 0;
+}
+#map{
+    width:100%;
+    height: 400px;
+    margin-top: 40px;
+    border: 1px solid rgba(0,0,0,0.02);
+    border-bottom: none;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    box-sizing: border-box;
+}
+
+/*         */
+/* PRICING */
+/*         */
+.section--pricing{
+}
+.section--pricing .inner{
+    padding-top: 80px;
+}
+.section--pricing .pricing--group{
+    display: flex;
+    border: 1px solid rgba(0,0,0,0.07);
+    box-sizing: border-box;
+}
+.section--pricing .pricing--group .pricing__small{
+    border-right: 1px solid rgba(0,0,0,0.07);
+}
+.section--pricing .pricing--group .pricing__big{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.section--pricing .pricing--group [class^=pricing]{
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section--pricing .pricing--group .pricing__small .btn{
+    width: 170px;
+    height: 50px;
+    font-size: 18px;
+}
+
+/*        */
+/* FOOTER */
+/*        */
+footer{
+    padding-top: 60px;
+    background-color: #FFF;
+}
+footer .inner{
+    border-top: 1px solid #eee;
+    height: 100px;
+    font-size: 11px;
+}
+footer .inner .footer--main{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+footer .inner .footer--main li{
+    margin-right: 20px;
+    
+}
+footer .inner .footer--main li a{
+    color:#4078C0;
+}
+footer .inner .footer--main li a:hover{
+    text-decoration: underline;
+}
+footer .logo{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 24px;
+    height: 24px;
+}
+footer .inner .logo svg:hover{
+    fill: #4078C0;
+}
